@@ -23,6 +23,13 @@ body {
     font-weight: bold;
 }
 
+.menu-toggle {
+    display: none;
+    font-size: 26px;
+    color: white;
+    cursor: pointer;
+}
+
 .menu a {
     color: white;
     margin-left: 25px;
@@ -306,5 +313,34 @@ footer {
         width: 220px;
         max-width: 90%;
         height: auto;
+    }
+
+    .navbar {
+        padding: 14px 20px;
+    }
+
+    .menu {
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: linear-gradient(135deg, #ff85a2, #ff4f87);
+        flex-direction: column;
+        width: 200px;
+        padding: 20px;
+        border-radius: 0 0 0 20px;
+        display: none;
+        box-shadow: 0 10px 25px rgba(255, 79, 135, 0.4);
+    }
+
+    .menu a {
+        margin: 10px 0;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
     }
 }
