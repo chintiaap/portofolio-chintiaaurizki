@@ -1,4 +1,4 @@
-body {
+body {  
     margin: 0;
     font-family: Arial, sans-serif;
     background: linear-gradient(to bottom, #ffe6ef, #ffd6e8);
@@ -274,6 +274,23 @@ footer {
 }
 
 @media (max-width: 900px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 10px;
+    }
+
+    .menu a {
+        margin-left: 0;
+    }
+
     .hero {
         flex-direction: column;
         text-align: center;
