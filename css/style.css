@@ -274,22 +274,37 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .navbar {
-        flex-direction: row;
-        padding: 12px 15px;
+
+    .hero {
+        flex-direction: column;
+        padding: 40px 20px;
+        text-align: center;
     }
 
-    .menu {
-        display: flex;
-        gap: 12px;
+    .hero-text {
+        width: 100%;
     }
 
-    .menu a {
-        margin-left: 0;
-        font-size: 13px;
+    .hero-text h1 {
+        font-size: 26px;
     }
 
-    .logo {
-        font-size: 16px;
+    .hero-text h2 {
+        font-size: 18px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+    }
+
+    .hero-image {
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    .profile-img {
+        width: 220px;
+        max-width: 90%;
+        height: auto;
     }
 }
