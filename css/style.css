@@ -281,7 +281,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-      
+
     .hero {
         flex-direction: column;
         padding: 40px 20px;
@@ -315,14 +315,13 @@ footer {
         height: auto;
     }
 
-    /* Navbar mobile */
     .navbar {
         padding: 14px 20px;
     }
 
     .menu {
         position: absolute;
-        top: 100%;   /* INI YANG DIUBAH */
+        top: 100%;
         right: 0;
         background: linear-gradient(135deg, #ff85a2, #ff4f87);
         flex-direction: column;
@@ -330,10 +329,6 @@ footer {
         padding: 20px;
         border-radius: 0 0 0 20px;
         display: none;
-    }
-
-    .menu a {
-        margin: 10px 0;
     }
 
     .menu.active {
